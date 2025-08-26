@@ -7097,3 +7097,68 @@ td.visible-print {
     display: none !important;
   }
 }
+
+
+
+/* 快速修复间距问题 */
+#main {
+    padding-top: 0px !important;
+}
+
+.article, .post, .page {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+.article-header, .page-header {
+    margin-bottom: 10px !important;
+}
+
+h1, h2, .title {
+    margin-top: 20px !important;
+}
+
+/* 通用间距压缩 */
+* {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+
+
+/* 放大菜单字体 */
+.menu {
+    font-size: 20px !important;
+}
+
+/* 放大导航菜单 */
+.main-navigation,
+#main-nav,
+.navigation {
+    font-size: 20px !important;
+}
+
+/* 放大所有菜单项 */
+.menu-item,
+.menu-item a {
+    font-size: 30px !important;
+}
+
+/* 通用菜单字体放大 */
+nav,
+nav a,
+nav li {
+    font-size: 30px !important;
+}
+
+
+/* 减少h2标题下方间距 */
+h2 {
+    margin-bottom: 20px !important;
+}
+
+/* 减少列表上方间距 */
+ul, ol {
+    margin-top: 5px !important;
+}
+
