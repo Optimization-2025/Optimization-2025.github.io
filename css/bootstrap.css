@@ -705,3 +705,12 @@ hr {
     list-style: none !important;
     list-style-type: none !important;
 }
+
+/* 方案一：限制标题区域宽度与内容区域一致 */
+.page-title,
+.header-banner,
+.course-header {
+    max-width: 1200px; /* 与内容区域保持一致的最大宽度 */
+    margin: 0 auto; /* 居中显示 */
+    padding: 60px 40px; /* 调整内边距 */
+}
